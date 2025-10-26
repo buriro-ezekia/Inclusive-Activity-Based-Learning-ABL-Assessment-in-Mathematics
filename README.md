@@ -7,12 +7,10 @@ The analysis relies on survey data collected from teachers regarding their knowl
 # Specific Objectives and Analysis Performed
 The analysis was structured around three specific research objectives:
 
-|
-
 | Objective | Analysis Performed | Key Variables | | 1. Explore Teacher Knowledge | Pearson Correlation | Knowledge_Score vs. Performance_Gain | | 2. Identify Teacher Challenges | Mean Score Ranking & Pearson Correlation | Challenge_Score vs. Performance_Gain | | 3. Assess Performance Enhancement & Inclusivity | ANCOVA (Type II) & Visual Analysis | Post_Test_Score controlled by Pre_Test_Score and grouped by Gender or Training Status. |
 
 # Methodology Summary
-Data Integration: Four primary CSV files (Demographics, Knowledge, Challenges, and Student Impact) were loaded.
+*Data Integration*: Four primary CSV files (Demographics, Knowledge, Challenges, and Student Impact) were loaded.
 
 Feature Engineering: Teacher-level Likert scores were calculated to create composite variables (Knowledge_Score and Challenge_Score).
 
